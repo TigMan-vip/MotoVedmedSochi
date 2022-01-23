@@ -3,7 +3,7 @@ object Dependencies {
 	object Versions {
 
 		const val KOTLIN =
-			"1.6.10"//https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-gradle-plugin
+			"1.5.31"//https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-gradle-plugin
 		const val GRADLE =
 			"7.0.4"//https://mvnrepository.com/artifact/com.android.tools.build/gradle?repo=google
 		const val COMPOSE =
