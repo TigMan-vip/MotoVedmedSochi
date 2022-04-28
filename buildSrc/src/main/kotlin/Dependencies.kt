@@ -23,6 +23,7 @@ object Dependencies {
 		const val KOIN = "3.0.1"//https://mvnrepository.com/artifact/org.koin/koin-core?repo=jcenter
 		const val WORKER =
 			"2.7.1"//https://mvnrepository.com/artifact/androidx.work/work-runtime-ktx
+		const val CALENDAR = "1.2.0"
 	}
 
 	const val GRADLE = "com.android.tools.build:gradle:${Versions.GRADLE}"
@@ -81,4 +82,11 @@ object Dependencies {
 			"androidx.compose.material:material-icons-extended:${Versions.COMPOSE}"
 		const val RUNTIME = "androidx.compose.runtime:runtime:${Versions.COMPOSE}"
 	}
+
+	object Calendar {
+
+		const val DATA_PICKER = "com.savvi.datepicker:rangepicker:${Versions.CALENDAR}"
+	}
+
+
 }

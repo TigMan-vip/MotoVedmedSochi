@@ -1,7 +1,0 @@
-<resources>
-
-	<style name="Theme.Timetable" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-
-		<item name="android:statusBarColor">@android:color/darker_gray</item>
-	</style>
-</resources>

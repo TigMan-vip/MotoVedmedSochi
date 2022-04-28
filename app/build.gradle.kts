@@ -1,3 +1,5 @@
+import java.util.regex.Pattern.compile
+
 plugins {
 	id(Plugins.ANDROID_APPLICATION)
 	id(Plugins.KOTLIN_ANDROID)
@@ -17,4 +19,6 @@ dependencies {
 	implementation(Dependencies.Compose.MATERIAL)
 
 	implementation(Dependencies.Koin.KOIN_COMPOSE)
+
+	implementation(Dependencies.Calendar.DATA_PICKER)
 }

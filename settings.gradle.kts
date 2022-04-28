@@ -1,3 +1,3 @@
-rootProject.name = "TimetableCompose"
+rootProject.name = "MotoVedmedSochi"
 
 include(":app")

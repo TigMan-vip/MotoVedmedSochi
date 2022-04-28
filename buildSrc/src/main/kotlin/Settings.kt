@@ -3,7 +3,7 @@ object Settings {
 	const val COMPILE_SDK_VERSION = 31
 	const val BUILD_TOOLS_VERSION = "30.0.3"
 
-	const val APPLICATION_ID = "ru.fevgenson.timetable"
+	const val APPLICATION_ID = "ru.tigman.motovedmedsochi"
 	const val MIN_SDK_VERSION = 26
 	const val TARGET_SDK_VERSION = 31
 	const val VERSION_CODE = 1

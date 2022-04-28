@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<com.savvi.rangedatepicker.CalendarPickerView
+		android:id="@+id/calendar_view"
+		android:layout_width="411dp"
+		android:layout_height="41dp"
+		android:layout_marginTop="56dp"
+		android:clipToPadding="false"
+		android:paddingBottom="16dp"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp"
+		android:scrollbarStyle="outsideOverlay"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:tsquare_dividerColor="@color/calendar_bg"
+		app:tsquare_headerTextColor="@color/calendar_selected_day_bg"
+		tools:ignore="MissingClass" />
+</FrameLayout>
