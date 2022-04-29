@@ -38,7 +38,6 @@ fun configureAppModule(project: Project) {
 		setBuildTypes()
 		setJavaVersion()
 		setExcludes()
-		setComposeSettings()
 	}
 }
 
@@ -57,7 +56,6 @@ fun configureAndroidLibraryModule(project: Project) {
 		setBuildTypes()
 		setJavaVersion()
 		setExcludes()
-		setComposeSettings()
 	}
 }
 
@@ -90,12 +88,5 @@ fun BaseExtension.setJavaVersion() {
 fun BaseExtension.setExcludes() {
 	packagingOptions {
 		resources.excludes.add("META-INF/*.kotlin_module")
-	}
-}
-
-fun BaseExtension.setComposeSettings() {
-	buildFeatures.compose = true
-	composeOptions {
-		kotlinCompilerExtensionVersion = Dependencies.Versions.COMPOSE
 	}
 }

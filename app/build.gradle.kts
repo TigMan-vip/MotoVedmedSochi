@@ -20,5 +20,7 @@ dependencies {
 
 	implementation(Dependencies.Koin.KOIN_COMPOSE)
 
-	implementation(Dependencies.Calendar.DATA_PICKER)
+	implementation(Dependencies.DATA_PICKER)
+
+	implementation(project(Modules.Libraries.NAVIGATION))
 }

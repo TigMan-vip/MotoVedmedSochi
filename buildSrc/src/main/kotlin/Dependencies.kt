@@ -24,6 +24,8 @@ object Dependencies {
 		const val WORKER =
 			"2.7.1"//https://mvnrepository.com/artifact/androidx.work/work-runtime-ktx
 		const val CALENDAR = "1.2.0"
+		const val FRAGMENT = "1.3.3"
+		const val CICERONE = "7.1"
 	}
 
 	const val GRADLE = "com.android.tools.build:gradle:${Versions.GRADLE}"
@@ -32,6 +34,9 @@ object Dependencies {
 	const val APP_COMPAT = "androidx.appcompat:appcompat:${Versions.APP_COMPAT}"
 	const val ACTIVITY_COMPOSE = "androidx.activity:activity-compose:${Versions.ACTIVITY_COMPOSE}"
 	const val WORKER = "androidx.work:work-runtime-ktx:${Versions.WORKER}"
+	const val DATA_PICKER = "com.savvi.datepicker:rangepicker:${Versions.CALENDAR}"
+	const val FRAGMENT = "androidx.fragment:fragment-ktx:${Versions.FRAGMENT}"
+	const val CICERONE = "com.github.terrakok:cicerone:${Versions.CICERONE}"
 
 	object Kotlin {
 
@@ -82,11 +87,4 @@ object Dependencies {
 			"androidx.compose.material:material-icons-extended:${Versions.COMPOSE}"
 		const val RUNTIME = "androidx.compose.runtime:runtime:${Versions.COMPOSE}"
 	}
-
-	object Calendar {
-
-		const val DATA_PICKER = "com.savvi.datepicker:rangepicker:${Versions.CALENDAR}"
-	}
-
-
 }
