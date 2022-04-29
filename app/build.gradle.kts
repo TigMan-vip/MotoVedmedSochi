@@ -20,7 +20,7 @@ dependencies {
 
 	implementation(Dependencies.Koin.KOIN_COMPOSE)
 
-	implementation(Dependencies.DATA_PICKER)
+	implementation(Dependencies.CICERONE)
 
 	implementation(project(Modules.Libraries.NAVIGATION))
 }
