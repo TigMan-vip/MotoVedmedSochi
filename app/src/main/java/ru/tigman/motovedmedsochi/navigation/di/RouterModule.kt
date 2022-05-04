@@ -1,4 +1,4 @@
-package ru.tigman.motovedmedsochi.navigation.di
+package ru.shiftlab.cftteam.navigation.di
 
 import org.koin.dsl.module
 import ru.tigman.motovedmedsochi.features.home.mainhome.presentation.HomeRouter
