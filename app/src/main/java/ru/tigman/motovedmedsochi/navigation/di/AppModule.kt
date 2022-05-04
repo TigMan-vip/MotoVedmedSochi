@@ -1,16 +1,16 @@
-package ru.shiftlab.cftteam.navigation.di
+package ru.tigman.motovedmedsochi.navigation.di
 
 import com.github.terrakok.cicerone.Cicerone
 import com.github.terrakok.cicerone.Router
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
-import ru.shiftlab.cftteam.features.main.presentation.MainRouterName.MAIN
-import ru.shiftlab.cftteam.navigation.MainRouterImpl
+import ru.tigman.motovedmedsochi.features.main.presentation.MainRouterName.MAIN
 import ru.tigman.motovedmedsochi.libraries.navigation.GlobalRouter
 import ru.tigman.motovedmedsochi.libraries.navigation.MainRouter
 import ru.tigman.motovedmedsochi.navigation.GlobalRouterImpl
 import ru.tigman.motovedmedsochi.navigation.GlobalRouterName.GLOBAL
+import ru.tigman.motovedmedsochi.navigation.MainRouterImpl
 import ru.tigman.motovedmedsochi.presentation.MainViewModel
 import ru.tigman.motovedmedsochi.presentation.buildCicerone
 

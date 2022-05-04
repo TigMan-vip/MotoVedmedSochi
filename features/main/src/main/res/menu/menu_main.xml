@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:id="@id/home"
+		android:icon="@drawable/ic_home_run"
+		android:title="@string/main_home"/>
+
+	<item
+		android:id="@+id/home_events"
+		android:icon="@drawable/ic_event_run"
+		android:title="@string/main_home_event"/>
+
+	<item
+		android:id="@+id/home_vacancies"
+		android:icon="@drawable/ic_vacancy_run"
+		android:title="@string/main_home_vacancies"/>
+
+	<item
+		android:id="@+id/profile"
+		android:icon="@drawable/ic_profile_run"
+		android:title="@string/main_login_selection"/>
+</menu>

@@ -7,3 +7,5 @@ dependencies {
 	implementation(Dependencies.FRAGMENT)
 	implementation(Dependencies.CICERONE)
 }
+
+android.buildFeatures.dataBinding = true
