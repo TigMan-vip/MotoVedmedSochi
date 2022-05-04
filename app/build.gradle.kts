@@ -1,5 +1,3 @@
-import java.util.regex.Pattern.compile
-
 plugins {
 	id(Plugins.ANDROID_APPLICATION)
 	id(Plugins.KOTLIN_ANDROID)
@@ -21,6 +19,10 @@ dependencies {
 	implementation(Dependencies.Koin.KOIN_COMPOSE)
 
 	implementation(Dependencies.CICERONE)
+
+	implementation(project(Modules.Features.MAIN))
+	implementation(project(Modules.Features.Home.MAINHOME))
+
 
 	implementation(project(Modules.Libraries.NAVIGATION))
 }

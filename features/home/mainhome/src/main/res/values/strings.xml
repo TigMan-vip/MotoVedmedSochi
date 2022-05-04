@@ -1,0 +1,7 @@
+<resources>
+	<string name="home_screen_loading_title">Загрузка…</string>
+	<string name="home_screen_title">Главная</string>
+	<string name="home_screen_description_notification">Уведомления</string>
+	<string name="home_screen_search_hint">Поиск</string>
+	<string name="home_screen_search_ic_description">Поиск</string>
+</resources>

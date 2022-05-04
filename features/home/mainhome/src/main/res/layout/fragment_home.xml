@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<data>
+		<variable name="viewModel"
+			type="ru.shiftlab.cftteam.features.home.mainhome.presentation.HomeViewModel"/>
+	</data>
+
+	<androidx.coordinatorlayout.widget.CoordinatorLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<!--Тулбар-->
+		<com.google.android.material.appbar.AppBarLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="?attr/colorSurface"
+			style="@style/Widget.MyTheme.AppBarLayout">
+
+			<com.google.android.material.appbar.MaterialToolbar
+				android:id="@+id/toolbar_only_title"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				app:contentInsetLeft="0dp"
+				app:contentInsetStart="0dp"
+				app:layout_scrollFlags="scroll|enterAlways"
+				style="@style/Widget.MyTheme.MainToolbar">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:paddingHorizontal="@dimen/indent_20"
+					android:paddingVertical="@dimen/spacing_12"
+					android:weightSum="5">
+
+					<TextView
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_weight="5"
+						android:ellipsize="end"
+						android:maxLines="1"
+						android:text="@string/home_screen_title"
+						style="@style/Header1DP"/>
+				</LinearLayout>
+			</com.google.android.material.appbar.MaterialToolbar>
+
+		</com.google.android.material.appbar.AppBarLayout>
+
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
