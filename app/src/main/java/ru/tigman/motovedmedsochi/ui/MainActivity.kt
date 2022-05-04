@@ -8,8 +8,8 @@ import com.github.terrakok.cicerone.NavigatorHolder
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.koin.core.qualifier.named
-import ru.shiftlab.cftteam.libraries.core.utils.dispatcher.ApplicationScope
 import ru.tigman.motovedmedsochi.R
+import ru.tigman.motovedmedsochi.core.utils.dispatcher.ApplicationScope
 import ru.tigman.motovedmedsochi.libraries.navigation.CftTeamAppNavigator
 import ru.tigman.motovedmedsochi.navigation.GlobalRouterName.GLOBAL
 import ru.tigman.motovedmedsochi.presentation.MainViewModel

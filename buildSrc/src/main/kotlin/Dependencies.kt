@@ -9,7 +9,7 @@ object Dependencies {
 		const val COMPOSE =
 			"1.0.5"//https://mvnrepository.com/artifact/androidx.compose.ui/ui
 		const val LIFECYCLE =
-			"2.3.1"//https://mvnrepository.com/artifact/androidx.lifecycle/lifecycle-extensions
+			"2.4.0"//https://mvnrepository.com/artifact/androidx.lifecycle/lifecycle-extensions
 		const val MATERIAL =
 			"1.5.0"//https://mvnrepository.com/artifact/com.google.android.material/material
 		const val CORE = "1.7.0"//https://mvnrepository.com/artifact/androidx.core/core-ktx

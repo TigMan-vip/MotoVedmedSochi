@@ -1,4 +1,4 @@
-package ru.shiftlab.cftteam.libraries.core.utils.dispatcher
+package ru.tigman.motovedmedsochi.core.utils.dispatcher
 
 import kotlinx.coroutines.*
 import ru.shiftlab.cftteam.libraries.core.presentation.events.EventsDispatcher
