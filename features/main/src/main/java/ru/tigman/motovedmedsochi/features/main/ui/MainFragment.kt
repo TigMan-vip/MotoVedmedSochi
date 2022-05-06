@@ -28,8 +28,8 @@ class MainFragment : BaseFragment<FragmentMainBinding>(R.layout.fragment_main),
 		get() =
 			when (binding.bottomNavigation.selectedItemId) {
 				R.id.home           -> getString(R.string.main_home)
-				R.id.home_events    -> getString(R.string.main_home_event)
-				R.id.home_vacancies -> getString(R.string.main_home_vacancies)
+				R.id.home_moto_rent -> getString(R.string.main_home_moto_rent)
+				R.id.home_services  -> getString(R.string.main_home_services)
 				R.id.profile        -> getString(R.string.main_login_selection)
 				else                -> throw IllegalArgumentException("Unknown last screen")
 			}
@@ -58,8 +58,8 @@ class MainFragment : BaseFragment<FragmentMainBinding>(R.layout.fragment_main),
 		viewModel.currentScreen.onEach {
 			binding.bottomNavigation.selectedItemId = when (it) {
 				MainScreen.HOME            -> R.id.home
-				MainScreen.EVENTS          -> R.id.home_events
-				MainScreen.VACANCIES       -> R.id.home_vacancies
+				MainScreen.MOTO_RENT       -> R.id.home_moto_rent
+				MainScreen.SERVICES        -> R.id.home_services
 				MainScreen.PROFILE         -> R.id.profile
 				MainScreen.LOGIN_SELECTION -> R.id.profile
 			}

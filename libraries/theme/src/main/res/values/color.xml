@@ -49,7 +49,7 @@
 	<color name="neutral_600">#7C7A7A</color> <!--Color on background (light)-->
 	<color name="neutral_800">#2E2122</color> <!--Color on surface-->
 
-	<color name="red_500">#ED1941</color><!--Color primary, color error-->
+	<color name="orange_500">#F59A46</color><!--Color primary, color error-->
 	<color name="red_600">#b00020</color> <!--Color primary variant-->
 
 	<color name="orange_600">#F87700</color>

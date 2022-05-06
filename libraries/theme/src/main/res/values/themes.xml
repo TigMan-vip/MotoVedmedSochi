@@ -17,12 +17,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 	<style name="Theme.SplashScreen"
 		parent="Theme.MaterialComponents.DayNight.NoActionBar">
-		<item name="android:colorBackground">@color/red_500</item>
+		<item name="android:colorBackground">@color/orange_500</item>
 		<item tools:ignore="NewApi"
-			name="android:statusBarColor">@color/red_500
+			name="android:statusBarColor">@color/orange_500
 		</item>
 		<item tools:ignore="NewApi"
-			name="android:navigationBarColor">@color/red_500
+			name="android:navigationBarColor">@color/orange_500
 		</item>
 	</style>
 	<!--Top level DayNight theme to be used in AndroidManifest.xml-->
@@ -35,9 +35,9 @@
 		<!--colorPrimary colors map to components and elements, such as app bars and buttons. -->
 		<!--colorSecondary colors are most often used as accents on components, such as FABs and -->
 		<!--selection controls.-->
-		<item name="colorPrimary">@color/red_500</item>
-		<item name="colorPrimaryVariant">@color/red_600</item>
-		<item name="colorSecondary">@color/neutral_50</item>
+		<item name="colorPrimary">@color/orange_500</item>
+		<item name="colorPrimaryVariant">@color/orange_600</item>
+		<item name="colorSecondary">@color/orange_500</item>
 		<item name="colorSecondaryVariant">@color/neutral_100</item>
 		<!--colorBackground appears behind scrollable content and is used for the default window-->
 		<!--background. colorSurface is mapped to the surface of components such as cards, sheets-->
@@ -45,14 +45,14 @@
 		<!--text fields.-->
 		<item name="android:colorBackground">@color/neutral_0</item>
 		<item name="colorSurface">@color/neutral_0</item>
-		<item name="colorError">@color/red_500</item>
+		<item name="colorError">@color/orange_500</item>
 		<!--"On" colors define how text, icons and strokes are colored in relation to the surface-->
 		<!--on which they appear.-->
 		<item name="colorOnPrimary">@color/neutral_0</item>
 		<item name="colorOnSecondary">@color/neutral_400</item>
 		<item name="colorOnBackground">@color/neutral_600</item>
-		<item name="colorOnSurface">@color/neutral_800</item>
-		<item name="colorOnError">@color/red_500</item>
+		<item name="colorOnSurface">@color/orange_500</item>
+		<item name="colorOnError">@color/orange_500</item>
 		<!--Material type attributes-->
 		<item name="textAppearanceHeadline1">@style/TextAppearance.MyTheme.Headline1</item>
 		<item name="textAppearanceHeadline2">@style/TextAppearance.MyTheme.Headline2</item>
@@ -76,7 +76,7 @@
 		<item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item>
 		<item name="android:colorEdgeEffect">?colorSecondary</item>
 		<item name="appBarLayoutStyle">@style/Widget.MyTheme.AppBarLayout</item>
-		<item name="colorControlActivated">@color/red_500</item>
+		<item name="colorControlActivated">@color/orange_500</item>
 		<item name="android:textCursorDrawable">@drawable/accent_cursor</item>
 	</style>
 	<style name="Base.Theme.MaterialThemeBuilder"

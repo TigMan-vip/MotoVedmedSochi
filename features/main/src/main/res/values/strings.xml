@@ -2,7 +2,7 @@
 <resources>
 
 	<string name="main_home">Главная</string>
-	<string name="main_home_event">Мероприятия</string>
-	<string name="main_home_vacancies">Вакансии</string>
+	<string name="main_home_moto_rent">Мотопрокат</string>
+	<string name="main_home_services">Другие сервисы</string>
 	<string name="main_login_selection">Профиль</string>
 </resources>

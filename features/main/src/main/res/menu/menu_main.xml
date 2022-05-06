@@ -7,14 +7,14 @@
 		android:title="@string/main_home"/>
 
 	<item
-		android:id="@+id/home_events"
-		android:icon="@drawable/ic_event_run"
-		android:title="@string/main_home_event"/>
+		android:id="@+id/home_moto_rent"
+		android:icon="@drawable/ic_moto_run"
+		android:title="@string/main_home_moto_rent"/>
 
 	<item
-		android:id="@+id/home_vacancies"
-		android:icon="@drawable/ic_vacancy_run"
-		android:title="@string/main_home_vacancies"/>
+		android:id="@+id/home_services"
+		android:icon="@drawable/ic_services_run"
+		android:title="@string/main_home_services"/>
 
 	<item
 		android:id="@+id/profile"

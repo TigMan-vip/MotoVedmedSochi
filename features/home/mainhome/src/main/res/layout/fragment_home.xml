@@ -34,6 +34,7 @@
 					android:orientation="horizontal"
 					android:paddingHorizontal="@dimen/indent_20"
 					android:paddingVertical="@dimen/spacing_12"
+					android:layout_gravity="center_vertical"
 					android:weightSum="5">
 
 					<TextView
@@ -44,10 +45,19 @@
 						android:maxLines="1"
 						android:text="@string/home_screen_title"
 						style="@style/Header1DP"/>
+
+					<ImageView
+						android:layout_width="117dp"
+						android:layout_height="40dp"
+						android:layout_gravity="center_vertical"
+						android:layout_marginStart="@dimen/spacing_12"
+						android:src="@drawable/img_app_icon_toolbar" />
 				</LinearLayout>
 			</com.google.android.material.appbar.MaterialToolbar>
-
 		</com.google.android.material.appbar.AppBarLayout>
+
+
+
 
 	</androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>
