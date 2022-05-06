@@ -1,4 +1,4 @@
-package ru.shiftlab.cftteam.features.home.mainhome.presentation
+package ru.tigman.motovedmedsochi.features.home.mainhome.presentation
 
 sealed class HomeState {
 	object Success : HomeState()
